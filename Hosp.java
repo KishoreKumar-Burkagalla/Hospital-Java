@@ -214,12 +214,10 @@ public class Hosp {
             whall[i] = patientName[i];
         }
         if (N > L) {
-
             for (p = p + 1; p < N; p++) {
                 quarantine(hs, patientName[p]);
                 System.out.print("Patients in queue : ");
                 System.out.print(patientName[p] + "  ");
-
             }
         }
     }
